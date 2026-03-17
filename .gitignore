@@ -1,0 +1,23 @@
+# ESP-IDF Build Output (CRITICAL to ignore)
+build/
+
+# SDK Configuration Backups
+sdkconfig.old
+
+# IDF Component Manager (if you download external libraries)
+managed_components/
+dependencies.lock
+
+# Python Virtual Environments (if you use cflib scripts locally)
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
